@@ -11,13 +11,16 @@ The repository is intentionally not a collection of generic back-pain advice. Cl
 Start with:
 
 - `MODEL.md` — the mechanical ontology;
+- `CURATION.md` — how sources are selected and how evidence quality is judged for a particular claim;
 - `AGENTS.md` — evidence-boundary and terminology rules;
 - `RAG.md` — query decomposition, retrieval ranking, and answer construction;
 - `sources.tsv` — source ledger with explicit study boundaries;
 - `notes/` — per-source notes written for retrieval rather than generic summaries;
 - `evals/` — failure-mode fixtures that test whether retrieval preserves geometry, loading, history, and model class.
 
-The initial source ledger includes human experiments, reviews, mixed human/cadaver work, and explicitly labeled animal work. The point is not to make these sources interchangeable. It is to make the boundary of every retrieved claim machine-visible.
+The source ledger deliberately mixes human experiments, systematic reviews, clinical guidelines, mixed human/cadaver work, modeling, and explicitly labeled animal work. These are not interchangeable evidence classes. The point is to make the boundary of every retrieved claim machine-visible and to triangulate important propositions using different methods.
+
+The core lumbar corpus should remain small enough to understand. `CURATION.md` sets an initial target of roughly 30–40 nonredundant sources, but source count is not an objective. Stop adding papers when additional papers no longer alter the model or its uncertainty.
 
 ## Retrieval principle
 
