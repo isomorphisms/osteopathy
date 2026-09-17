@@ -94,6 +94,6 @@ Only call findings genuinely conflicting after these variables have been checked
 
 ## Corpus format
 
-`source.tsv` is the source ledger. Notes should use one Markdown file per paper or tightly related experiment family, with front matter containing the evidence-boundary fields above.
+`sources.tsv` is the source ledger. Notes should use one Markdown file per paper or tightly related experiment family, with front matter containing the evidence-boundary fields above.
 
 Do not mirror copyrighted full text without redistribution rights. Notes should summarize the experiment, preserve important numerical results, record limitations, and link to the canonical source.
